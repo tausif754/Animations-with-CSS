@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 70vh;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+#loader {
+  height: 200px;
+  width: 200px;
+
+  /* background-color: red; */
+  border-radius: 50%;
+  border: 5px solid #ddd;
+  border-top-color: #333;
+  animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
